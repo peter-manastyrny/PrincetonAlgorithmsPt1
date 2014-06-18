@@ -32,10 +32,14 @@ public class QuickFindUF {
         int qid = id[q];
         int length = id.length;
 
+
         for  (int i = 0; i < length; i++ ){
             if (id[i] == qid)
                 id[i] = pid;
         }
+
+
+
 
 
 
